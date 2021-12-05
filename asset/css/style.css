@@ -5,28 +5,23 @@
     border: none;
 }
 
-header{
-    background-color: grey;
-}
-
 body{
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: black;
-}
+    color: black}
 
 h1, h2 {
     font-family: Teko, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: black
+    color:black
 
 }
 
 #logo {
     float: left;
     font-size: 400%;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
     /* Nav element  */
@@ -37,13 +32,14 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 80px;
+    margin-right: 35px;
+    
 }
 
 #menu a {
@@ -58,4 +54,14 @@ h1, h2 {
 
 .active {
     border-bottom: 2px solid #3a3a3a;
+}
+
+
+/* image */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-stefan-lorentz-668196.jpg')no-repeat center center;
+    
 }
