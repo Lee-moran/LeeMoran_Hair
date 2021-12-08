@@ -172,6 +172,25 @@ footer {
 
 }
 
-?
-/* gallery */
+/* Media queriers */
+@media screen and (max-width:1200px) {
+    #about{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #left, #right {
+        width: 65%;
+        float: left;
+        padding: 50px;
+       
+    }
+    hr{ display: none;}
+
+
+        
+    
+
+    
+}
 
