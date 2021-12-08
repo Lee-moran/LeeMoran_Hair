@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color:#7f7d7c;
+    background-color:#bfbebe;
     position: fixed;
     top: 0;
     left: 0;
@@ -110,15 +110,47 @@ h2 {
     padding: 110px;
     width: 34.5%;
     height: 280px;
-    background-color:#adabaa;
+    background-color:#bfbebe;
     position: relative;
     display: inline-block;
     vertical-align: top;
-    margin-top: 0px;
     box-sizing: content-box;
 }
 
-footer{
-    height: 80px;
-    background-color: black;
+#right > p {
+    background-color: whitesmoke;
+    color: black;
+    
+    
 }
+
+#right > h2{
+    color: white;
+    text-align: left;
+    font-size: 45px;
+    letter-spacing: 2px;
+    
+    
+}
+/* footer styling  */
+
+footer{
+    height: 100px;
+    background-color: lightgrey;
+    
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 50px;
+    margin: 2%;
+    color: white;
+}
+
