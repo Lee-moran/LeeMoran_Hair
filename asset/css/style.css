@@ -96,32 +96,33 @@ h2 {
     width: 34.5%;
     height: 280px;
     display: inline-block;
-    margin-top: 0px;
     vertical-align: top;
     background-image: url(../images/pexels-maor-attias-5152514.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    overflow: hidden;
 }
 #right {
     text-align: center;
     font-size: 25px;
 
-    padding: 110px;
-    width: 34.5%;
-    height: 280px;
+    padding:34.5px;
+    width: 45%;
+    height: 432px;
     background-color:#bfbebe;
     position: relative;
     display: inline-block;
     vertical-align: top;
     box-sizing: content-box;
+    overflow: hidden;
 }
 
 #right > p {
     background-color: whitesmoke;
     color: black;
-    
-    
+    padding: 15px;
+
 }
 
 #right > h2{
@@ -131,13 +132,13 @@ h2 {
     letter-spacing: 2px;
     
     
+    
 }
 /* footer styling  */
 
-footer{
+footer {
     height: 100px;
-    background-color: lightgrey;
-    
+    background-color: lightgrey;  
 }
 
 .social {
@@ -150,7 +151,9 @@ footer{
 
 .social i {
     font-size: 50px;
-    margin: 2%;
+    margin: 1%;
+    padding: 1%;
     color: white;
+    
 }
 
