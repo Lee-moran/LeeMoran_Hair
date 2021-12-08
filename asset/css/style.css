@@ -26,6 +26,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color:#f5f5f5;
+    text-align: center;
+    font-size: 40px;
 }
 
 h2 {
@@ -156,4 +158,20 @@ footer {
     color: white;
     
 }
+
+/* Gallery styling  id = photos */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+
+}
+
+?
+/* gallery */
 
