@@ -90,19 +90,25 @@ h2 {
     height: 600px;
 }
 #left {
-    padding: 100px;
-    width: 35.5%;
-    background-color: rgb(83, 31, 226);
+    padding: 110px;
+    width: 34.5%;
+    height: 300px;
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
+    background-image: url(../images/pexels-maor-attias-5152514.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 #right {
-    padding: 100px;
-    width: 35.5%;
-    background-color: brown;
+    padding: 110px;
+    width: 34.5%;
+    height: 300px;
+    background-color:#7f7d7c;
     position: relative;
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
 }
+
