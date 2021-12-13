@@ -91,29 +91,28 @@ h2 {
 /* About */
 
 #about{
-    height: 500px;
+    height: 550px;
 }
 #left {
     padding: 110px;
     width: 34.5%;
-    height: 280px;
+    height: 330px;
     display: inline-block;
     vertical-align: top;
-    background-image: url(../images/pexels-maor-attias-5152514.jpg);
+    background-image: url('../images/pexels-maor-attias-5152514.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     overflow: hidden;
+    position: static;
 }
 #right {
-    text-align: center;
-    font-size: 25px;
-
-    padding:34.5px;
-    width: 45%;
-    height: 432px;
+   
+    padding:110px;
+    width: 34.5%;
+    height: 330px;
     background-color:#bfbebe;
-    position: relative;
+    position: static;
     display: inline-block;
     vertical-align: top;
     box-sizing: content-box;
@@ -124,15 +123,17 @@ h2 {
     background-color: whitesmoke;
     color: black;
     padding: 20px;
+    font-size: 20px;  
 
 }
 
 #right > h2{
     color: white;
     text-align: left;
-    font-size: 45px;
+    font-size: 37px;
     letter-spacing: 2px;
-    padding: 10px;
+    padding-bottom: 20px;
+   
     
     
     
@@ -140,8 +141,9 @@ h2 {
 /* footer styling  */
 
 footer {
-    height: 100px;
+    height: 1ß00px;
     background-color: lightgrey;  
+    overflow: hidden;
 }
 
 .social {
@@ -173,6 +175,43 @@ footer {
 
 }
 
+
+/* contact  */
+
+#contact {
+    background: url('../images/pexels-moisés-delgado-7919445\ copy.jpg')no-repeat center;
+    height: 600px;
+    width: 100%;
+    
+
+}
+
+.contact-form {
+    background-color: rgba(139, 139, 139, 0.5);
+    padding: 150px;
+    color: white;
+    width: 450px;
+    height: 50%;
+    font-size: 25px;
+    margin-left: 310px;
+
+}
+
+input[type=text], [type=email]{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+
+ 
+input[type=submit]{
+    padding: 12px 20px;
+    background-color: crimson;
+    
+}
+
+
 /* Media queriers */
 @media screen and (max-width:1200px) {
     #about{
@@ -196,6 +235,8 @@ footer {
         margin-right: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        
+        
     }
 
     #logo {
@@ -204,6 +245,7 @@ footer {
         margin-left: 30px;
         margin-top: 35px;
         line-height: 25px;
+        font-size: 180%;
     }
     
 }

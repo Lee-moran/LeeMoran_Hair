@@ -22,10 +22,10 @@
                     <a href="#"> Sign up </a>
                 </li>
                 <li>
-                    <a href="contact.html"> Contact </a>
+                    <a href="contact.html" class="active"> Contact </a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active"> Gallery </a>
+                    <a href="gallery.html"> Gallery </a>
                 </li>
                 <li>
                     <a href="index.html"> Home </a> 
@@ -33,25 +33,40 @@
             </ul>
         </nav>
     </header>
+
     <section> 
         <div id="hero"></div>
-        <h1> Gallery </h1>
     </section>
+    <h1> Contact </h1>
 
-    <section id="photos">
-        <img src="./asset/images/pexels-cottonbro-3993307.jpg " alt="Barber chair">
-        <img src="./asset/images/pexels-cottonbro-3993447.jpg" alt="long hair detail">
-        
-        <img src="./asset/images/pexels-cottonbro-4542858.jpg" alt="barber sign">
-        <img src="./asset/images/pexels-jonathan-nenemann-4952623.jpg" alt="finished cut">
-        <img src="./asset/images/pexels-alex-urezkov-9992821.jpg" alt="skin fade">
-        <img src="./asset/images/pexels-maksim-goncharenok-4663133.jpg" alt="slick back hair">
-        <!-- <img src="./asset/images/pexels-jonathan-nenemann-4952620.jpg" alt="barber and client"> -->
-        <img src="./asset/images/pexels-jonathan-nenemann-4952628.jpg" alt="clipper over comb">
-        <img src="./asset/images/pexels-cottonbro-3998425.jpg" alt="beard detail">
+    <section id="contact">
+    
+    <div class="container">
+        <!-- <img src="./asset/images/pexels-moisés-delgado-7919445 copy.jpg" alt="barber_equipment" style="width: 100%;"> -->
+
+        <div class="contact-form">
+            <form method="post" action="link">
+                <label for="name"> Your Name:</label>
+                <input type="text" id="name" name="name">
+    
+                <label for="email"> Email Address:</label>
+                <input type="email" id="email" name="email">
+    
+                <label for="subject"> Subject:</label>
+                <input type="text" id="subject" name="subject">
+    
+                <label for="message"> Your Message:</label>
+                <input type="text" id="message" name="message">
+    
+                <input type="submit">
+            </form>
+
+        </div>
+    </div>
+
+    
 
     </section>
-
     <footer> 
         <ul class="social">
             <li>
