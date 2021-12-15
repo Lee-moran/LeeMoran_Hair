@@ -176,41 +176,79 @@ footer {
 }
 
 
-/* contact  */
+/* contact form */
 
 #contact {
     background: url('../images/pexels-moisés-delgado-7919445\ copy\ 3.jpg')no-repeat center;
     height: 600px;
-    /* width: fill; */
+    position: relative;
+   
     
-
 }
 
-.contact-form {
+/* .contact-form - old code {
     background-color: rgba(139, 139, 139, 0.5);
     padding: 150px;
     color: white;
-    width: 450px;
-    height: 50%;
-    font-size: 25px;
+    max-width: 450px;
+    /* height: 50%; */
+    /* font-size: 25px;
     margin-left: 25%;
+
+}  */
+
+.contact-form{
+    margin: 60px 10% 0 0;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(119, 119, 119, 0.5);
+    max-width: 500px;
+    position: absolute;
+    left: 30%;
+    padding: 40px;
 
 }
 
 input[type=text], [type=email]{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 4px 0;
     box-sizing: border-box;
   }
+input[id=message]{
+    padding: 25px;
+}
 
  
 input[type=submit]{
     padding: 12px 20px;
     background-color: crimson;
+}
+
+/* sign up form  */
+#sign-up{
+    background-image: url('../images/pexels-cottonbro-3992874\ copy.jpg');
+    height: 600px;
+    position:relative;
     
 }
 
+.form-signup{
+    margin: 80px 10% 0 0;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(119, 119, 119, 0.5);
+    max-width: 500px;
+    left: 30%;
+    padding: 40px;
+    position: absolute;
+}
+
+}
+ .form-signup h1 {
+     color: black;
+     margin-bottom: 20px;
+ }
 
 /* Media queriers */
 @media screen and (max-width:1200px) {
