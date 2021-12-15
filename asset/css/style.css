@@ -240,19 +240,19 @@ input[type=submit]{
 /* Media queriers */
 @media screen and (max-width:1200px) {
     #about{
-        width: inherit;
-        height: 450px;
+        width: 65%;
+        height: 440px;
         margin: 0 auto;
     }
     #left, #right {
-        width: 38%;
+        width: 100%;
         float: left, right;
-        padding: 50px;
+        padding: auto 0;
     }
     hr{ display: none;}
 
     #right > p {
-        font-size: inherit;
+        font-size: 75%;
     }
 }
 
@@ -277,7 +277,12 @@ input[type=submit]{
         line-height: 25px;
         font-size: 180%;
     }
+
+    #left, #right {
+        width: 30%;
+        float: left, right;
+        padding: 50px;
+    }
     
 }
     
-}
