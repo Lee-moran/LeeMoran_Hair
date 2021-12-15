@@ -12,8 +12,8 @@ header {
     left: 0;
     right: 0;
     height: 80px;
-
 }
+
 body{
     font-family: Oswald, sans-serif;
     font-weight: 300;
@@ -38,17 +38,14 @@ h2 {
 #logo {
     float: left;
     font-size: 350%;
-    margin-left: 70px;
-    
+    margin-left: 70px;  
 }
 
     /* Nav element  */
 
 #menu {
     font-size: 230%;
-    letter-spacing: 5px;
-    
-    
+    letter-spacing: 5px;   
 }
 
 #menu, #logo {
@@ -58,9 +55,7 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 70px;
-    
-    
+    margin-right: 70px;  
 }
 
 #menu a {
@@ -70,7 +65,6 @@ h2 {
 
 #menu a:hover {
     border-bottom: 2px solid black;
-
 }
 
 .active {
@@ -107,24 +101,26 @@ h2 {
     position: static;
 }
 #right {
-   
     padding:110px;
     width: 34.5%;
     height: 330px;
-    background-color:#bfbebe;
+    background-image: url('../images/pexels-caleb-oquendo-3162022.jpg');
     position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
     display: inline-block;
-    vertical-align: top;
-    box-sizing: content-box;
+    vertical-align:top;
     overflow: hidden;
 }
 
 #right > p {
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245, 70%);
     color: black;
-    padding: 20px;
-    font-size: 20px;  
-
+    padding: 15px;
+    margin: 0px 10% 0 0;
+    font-size: 20px;
+    text-align: center;  
 }
 
 #right > h2{
@@ -132,18 +128,16 @@ h2 {
     text-align: left;
     font-size: 37px;
     letter-spacing: 2px;
-    padding-bottom: 20px;
-   
-    
-    
-    
+    padding-bottom: 15px;   
 }
 /* footer styling  */
 
 footer {
-    height: 1ß00px;
-    background-color: lightgrey;  
+    height: 100px;
+    background-color: #bfbebe;  
     overflow: hidden;
+    
+    
 }
 
 .social {
@@ -159,7 +153,6 @@ footer {
     margin: 1%;
     padding: 1%;
     color: white;
-    
 }
 
 /* Gallery styling  id = photos */
@@ -172,7 +165,6 @@ footer {
 
 #photos > img {
     width: 100%;
-
 }
 
 
@@ -182,8 +174,6 @@ footer {
     background: url('../images/pexels-moisés-delgado-7919445\ copy\ 3.jpg')no-repeat center;
     height: 600px;
     position: relative;
-   
-    
 }
 
 /* .contact-form - old code {
@@ -206,7 +196,6 @@ footer {
     position: absolute;
     left: 30%;
     padding: 40px;
-
 }
 
 input[type=text], [type=email]{
@@ -214,12 +203,12 @@ input[type=text], [type=email]{
     padding: 10px 15px;
     margin: 4px 0;
     box-sizing: border-box;
-  }
+}
+
 input[id=message]{
     padding: 25px;
 }
 
- 
 input[type=submit]{
     padding: 12px 20px;
     background-color: crimson;
@@ -229,8 +218,7 @@ input[type=submit]{
 #sign-up{
     background-image: url('../images/pexels-cottonbro-3992874\ copy.jpg');
     height: 600px;
-    position:relative;
-    
+    position:relative; 
 }
 
 .form-signup{
@@ -244,25 +232,28 @@ input[type=submit]{
     position: absolute;
 }
 
-}
- .form-signup h1 {
+.form-signup h1 {
      color: black;
      margin-bottom: 20px;
- }
+}
 
 /* Media queriers */
 @media screen and (max-width:1200px) {
     #about{
-        width: 65%;
-        height: 1200px;
+        width: inherit;
+        height: 450px;
         margin: 0 auto;
     }
     #left, #right {
-        width: 65%;
-        float: left;
+        width: 38%;
+        float: left, right;
         padding: 50px;
     }
     hr{ display: none;}
+
+    #right > p {
+        font-size: inherit;
+    }
 }
 
 /* responsive header, screen size 905px */
@@ -273,6 +264,7 @@ input[type=submit]{
         margin-right: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: 80%;
         
         
     }
