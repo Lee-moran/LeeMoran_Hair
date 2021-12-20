@@ -10,6 +10,7 @@ Users of the website will be able  can find all the information they need to to 
 
 <!-- screen shot  -->
 
+
 Features:
 Navagation
 - featured at the top of the page, the navagation shows the website name in the left corner:LeeMoran_Hair links to the top of the page.
@@ -36,7 +37,7 @@ Contact Page:
 -The contact page has a form section which encourages users to get in contact.
 -The form collects your name, an email, a subject and an message box.
 -The contact form is valuable to the user as it gives them the ability to contact with out having to sign up.
-- Invites other barbers to join and find out more.
+- Invites other barbers to join and find out more, for potrnital for expanding.
 
 <!-- contact image  -->
 
@@ -51,3 +52,36 @@ Footer:
 - Contanins the links to social media and location: Facebook, Instagram, Youtube, Google maps.
 - More ways to get in touch.
 -colors complement the site. contast between grey and white.
+
+Testing:
+- I herby tested the pages work in different browser: Chrome, Firefox, Safari.
+- I confirmed that this project is responsive, looks good and finctions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the navagation, home, Gallery, Contact and Sign up text are all readable and easy to understand.
+- i confirmed that the form works: requires entries in every field, will only accept an email in the email field and the submit button works.
+
+Bugs:
+solved bugs
+-
+
+Validator testing:
+- HTML
+- when I ran a  the offical W3C validator I discovered my project was missing closing tags.
+- add the > fixed problem.
+- CSS
+- No errors were found when passing through the offical (jigsaw) validator.
+- Accessibility 
+- I confirmed that the colors and fonts chossen are easy to read and accessible by running it through lighthouse in devtools.
+
+<!-- screen shoot lighthouse -->
+
+
+Unfixed bugs:
+-No unfixed bugs 
+
+Deployment:
+- The site was deployed to GitHub pages. The steps to deploy are as folls:
+- In the GitHub repository, navigation to the setting tab
+- Form the sourse section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page provided the link to the completed website.
+
+the live link can be found here - https://lee-moran.github.io/leemoran_hair/
