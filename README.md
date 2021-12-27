@@ -117,8 +117,18 @@ Deployment:
 
 the live link can be found here - https://lee-moran.github.io/leemoran_hair/
 
+Technologies Used:
+- HTML5 - provides the content and structure for the website.
+- CSS - provides the styling.
+- Gitpod - used to deploy the website.
+- Github - used to host and edit the website.
+
 Content:
 - The code to make the social media links was taken from the CI love running project.
+- The font came from Google Fonts.
+- The map is embedded from Google Maps.
+- The colour palate was compiled by Colormind.
+- The icons came from Font Awesome.
 
 Media
 - The image used throughout was taken from Pexels.
