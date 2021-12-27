@@ -93,7 +93,7 @@ h2 {
     height: 330px;
     display: inline-block;
     vertical-align: top;
-    background-image: url('../images/pexels-maor-attias-5152514.jpg');
+    background-image: url('../images/pexels-caleb-oquendo-3162022.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -104,7 +104,7 @@ h2 {
     padding:110px;
     width: 34%;
     height: 330px;
-    background-image: url('../images/pexels-caleb-oquendo-3162022.jpg');
+    background-image: url('../images/pexels-maor-attias-5152514.jpg');
     position: static;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,21 +114,23 @@ h2 {
     overflow: hidden;
 }
 
-#right > p {
-    background-color: rgb(245, 245, 245, 70%);
-    color: black;
-    padding: 15px;
-    margin: 0px 10% 0 0;
+#left > p {
+    background-color: rgb(119, 119, 119, 0.5);
+    color: rgb(250, 249, 249);
+    margin: 0px 5% 0 0;
     font-size: 20px;
     text-align: center;  
 }
 
-#right > h2{
+#left > h2{
     color: white;
-    text-align: left;
+    background-color: rgb(119, 119, 119, 0.5);
+    width: 95%;
+    text-align: center;
     font-size: 37px;
     letter-spacing: 2px;
-    padding-bottom: 15px;   
+    /* padding: 10px;  */
+    
 }
 /* footer styling  */
 
@@ -240,12 +242,12 @@ input[type=submit]{
 /* Media queriers */
 @media screen and (max-width:1200px) {
     #about{
-        width: 100%;
+        width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
     #left, #right {
-        width: 75%;
+        width: 65%;
         float: left,
         padding: 0 auto;
     }
@@ -256,8 +258,8 @@ input[type=submit]{
     } */
 }
 
-/* responsive header, screen size 905px */
-@media screen and (max-width: 900px) {
+/* responsive header, screen size 950px */
+@media screen and (max-width: 950px) {
     #menu {
         clear: right;
         /* float: right; */
