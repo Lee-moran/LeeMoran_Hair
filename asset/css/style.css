@@ -45,7 +45,7 @@ h2 {
 
 #menu {
     font-size: 230%;
-    letter-spacing: 3px;   
+    letter-spacing: 1.5px;   
 }
 
 #menu, #logo {
@@ -79,6 +79,7 @@ h2 {
     width: 100%;
     background: url('../images/pexels-stefan-lorentz-668196.jpg')no-repeat center center;
     margin-top: 80px;
+    
     
 }
 
@@ -248,33 +249,33 @@ input[type=submit]{
     }
     #left, #right {
         width: 65%;
-        float: left,
+        float: left;
         padding: 0 auto;
     }
     hr{ display: none;}
 
-    /* #right > p {
-        font-size: 15px;
-    } */
 }
 
 /* responsive header, screen size 950px */
 @media screen and (max-width: 950px) {
     #menu {
         clear: right;
-        /* float: right; */
-        margin-right: 30px;
-        /* margin-bottom: 20px; */
+        float: right;
         line-height: 80px;
-        font-size: 110%;
+        font-size: 100%;
         
-        
+    }
+
+    #menu  li {
+        clear: left;
+        float: right;
+        font-size: 18px;
     }
 
     #logo {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-top: 35px;
         line-height: 25px;
         font-size: 180%;
