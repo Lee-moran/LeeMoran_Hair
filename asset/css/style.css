@@ -90,9 +90,10 @@ h2 {
     height: 550px;
 }
 #left {
-    padding: 100px;
+    padding: 7%;
     max-width: 100%;
-    width: 34.5%;
+    width: 35%;
+    margin: 15px 0 0 5px;
     height: 330px;
     display: inline-block;
     vertical-align: top;
@@ -105,9 +106,10 @@ h2 {
     
 }
 #right {
-    padding:100px;
+    padding:7%;
     max-width: 100%;
-    width: 470px;
+    width: 35%;
+    margin: 15px 0 0 5px;
     height: 330px;
     background-image: url('../images/pexels-maor-attias-5152514.jpg');
     position: static;
