@@ -285,15 +285,16 @@ input[type=submit]{
         font-size: 180%;
     }
 
+    
     .contact-form{
-        margin: 30px 5% 0 0;
+        margin: 80px 5% 0 0;
         color: white;
         font-size: 12px;
         background-color: rgba(119, 119, 119, 0.5);
-        width: 150px;
+        width: 425px;
         position: absolute;
         left: 15%;
-        padding: 40px;
+        padding: 50px;
         
     }
     
@@ -315,6 +316,8 @@ input[type=submit]{
     }
 
 
+
+
 }
 
 /* Responsive Gallery  */
@@ -329,4 +332,31 @@ input[type=submit]{
     #photos{
         column-count: 1;
     }
+}
+
+@media screen and (max-width: 350px) {
+    .contact-form{
+    margin: 80px 5% 0 0;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(119, 119, 119, 0.5);
+    width: 125px;
+    position: absolute;
+    left: 15%;
+    padding: 50px;
+    }
+  .form-signup{
+    margin: 80px 5% 0 0;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(119, 119, 119, 0.5);
+    max-width: 125px;
+    left: 15%;
+    padding: 40px;
+    position: absolute;
+   }
+
+   .form-signup, h1 {
+       font-size: 20px;
+   }
 }
