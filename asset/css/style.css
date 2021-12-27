@@ -224,6 +224,7 @@ input[type=submit]{
 }
 
 /* sign up form  */
+
 #sign-up{
     background-image: url('../images/pexels-cottonbro-3992874\ copy.jpg');
     height: 600px;
@@ -247,6 +248,7 @@ input[type=submit]{
 }
 
 /* Media queriers */
+
 @media screen and (max-width:1200px) {
     #about{
         width: 65%;
@@ -263,6 +265,7 @@ input[type=submit]{
 }
 
 /* responsive header, screen size 950px */
+
 @media screen and (max-width: 950px) {
     #menu {
         clear: right;
@@ -302,27 +305,44 @@ input[type=submit]{
     
 }
 /* responsive header, screen size 450px */
+
 @media screen and (max-width: 450px) {
     #menu {
         clear: right;
         float: right;
-        line-height: 20px;
-        font-size: 100%;
-        
+        line-height: 15px;
+        margin-top: 10px;
+ 
+    }
+
+    #logo {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-top: 35px;
+        line-height: 25px;
+        font-size: 120%;
     }
 
     #menu  li {
-        clear: right;
-        float: right;
-        font-size: 12px;
+        clear: left;
+        float: left;
+        font-size: 10px;
     }
 
+    #left > p {
+        font-size: 11px;
+        
+    }
 
-
+    #left > h2 {
+        font-size: 20px;
+    }
 
 }
 
 /* Responsive Gallery  */
+
 @media screen and (max-width: 900px) {
     #photos{
         column-count: 2;
@@ -330,11 +350,13 @@ input[type=submit]{
 }
 
 /* Responsive Gallery  */
+
 @media screen and (max-width: 500px) {
     #photos{
         column-count: 1;
     }
 }
+/* Responsive Form */
 
 @media screen and (max-width: 350px) {
     .contact-form{
