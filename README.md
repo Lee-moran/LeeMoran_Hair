@@ -4,14 +4,25 @@ LeeMoran_Hair Project 1.
 
 The LeeMoran_Hair website is a landing page for those who have short to medium lenght hair looking to get a 
 professional hair cut from the comfort of there home, and for those looking go get the one to one experience from a 
-creditable barber.
+creditable barber. Showing the user my experince in the barbering industy.
 
-Users of the website will be able  can find all the information they need to to know about LeeMoran_Hair.About: Gallery,contact, sign up, social.
+Users of the website will be able find all the information they need to to know about LeeMoran_Hair. Home: Gallery,contact, sign up, social links.
 
-<!-- screen shot  -->
+<!-- screen shot  change -->
 
 <img width="1434" alt="Screenshot home" src="https://user-images.githubusercontent.com/92300148/147470830-f474d839-1796-4902-8d9b-37e53274079f.png">
 
+Design choices:
+-Typography
+The fonts chosen were 'teko' for the headings and 'Oswald' for the body text. They fall back to  sans-serif respectively.
+
+'teko' was chosen for the headings to give the user an inital welcoming feel. The strong style generally feels more sturdy and standouts.
+'Lato' is used for the body text as it provides a nice contrast to the teko whilst being easy to read for all.
+
+Colour Scheme:
+The colour scheme eventually chosen is one based on grey and off-white. The colour contrasts with a modern feel and complementary to many of the images. Giving the page a modern feel.
+
+<!-- screen shot color pattern  -->
 
 Features:
 Navagation
