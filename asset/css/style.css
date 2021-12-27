@@ -89,7 +89,7 @@ h2 {
 }
 #left {
     padding: 110px;
-    width: 34.5%;
+    width: 34%;
     height: 330px;
     display: inline-block;
     vertical-align: top;
@@ -102,7 +102,7 @@ h2 {
 }
 #right {
     padding:110px;
-    width: 34.5%;
+    width: 34%;
     height: 330px;
     background-image: url('../images/pexels-caleb-oquendo-3162022.jpg');
     position: static;
