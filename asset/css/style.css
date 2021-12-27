@@ -256,11 +256,15 @@ input[type=submit]{
         margin: 0 auto;
     }
     #left, #right {
-        width: 65%;
-        float: center;
-        padding: 0 auto;
+        width:-webkit-fill-available;
+        /* float: center;
+        padding: 0 auto; */
     }
     hr{ display: none;}
+
+    #menu li {
+        font-size: 80%;
+    }
 
 }
 
