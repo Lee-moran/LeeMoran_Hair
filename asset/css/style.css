@@ -296,17 +296,59 @@ input[type=submit]{
 
     
     .contact-form{
-        margin: 80px 5% 0 0;
+        margin: 35px 5% 0 0;
         color: white;
-        font-size: 12px;
+        font-size: 20px;
         background-color: rgba(119, 119, 119, 0.5);
-        width: 425px;
+        width: 405px;
         position: absolute;
         left: 15%;
         padding: 50px;
         
     }
+
     
+}
+
+/* Responsive Gallery  */
+
+@media screen and (max-width: 900px) {
+    #photos{
+        column-count: 2;
+    }
+}
+
+/* Responsive Gallery and images */
+
+@media screen and (max-width: 550px) {
+    #photos{
+        column-count: 1;
+    }
+    #contact {
+        background: url('../images/pexels-moisés-delgado-medium\ contact.jpg contact.jpg')no-repeat center;
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+
+    #contact {
+        background: url('../images/pexels-moisés-delgado-small\ contact.jpg')no-repeat center;
+        height: 427px;
+        width: 100%;
+        position: relative;
+    }
+
+    .contact-form{
+        margin: 39px 10% 0 0;
+        color: white;
+        font-size: 15px;
+        background-color: rgba(119, 119, 119, 0.5);
+        width: 208px;
+        position: absolute;
+        left: 25%;
+        padding: 15px;
+    }
+
 }
 /* responsive header, screen size 450px */
 
@@ -343,35 +385,29 @@ input[type=submit]{
         font-size: 20px;
     }
 
-}
-
-/* Responsive Gallery  */
-
-@media screen and (max-width: 900px) {
-    #photos{
-        column-count: 2;
+    #hero {
+        height: 450px;
+        width: 100%;
+        max-width: 100%;
+        background: url('../images/pexels-stefan-lorentz-small.jpg')no-repeat center center;
+        margin-top: inherit; 
     }
-}
 
-/* Responsive Gallery  */
+    
 
-@media screen and (max-width: 500px) {
-    #photos{
-        column-count: 1;
-    }
 }
 /* Responsive Form */
 
 @media screen and (max-width: 350px) {
     .contact-form{
-    margin: 80px 5% 0 0;
+    margin: 44px 5% 0 0;
     color: white;
     font-size: 12px;
     background-color: rgba(119, 119, 119, 0.5);
     width: 125px;
     position: absolute;
     left: 15%;
-    padding: 50px;
+    padding: 25px;
     }
   .form-signup{
     margin: 80px 5% 0 0;
@@ -387,4 +423,27 @@ input[type=submit]{
    .form-signup, h1 {
        font-size: 20px;
    }
+
+   #menu {
+    clear: right;
+    float: right;
+    line-height: 12px;
+    margin-top: 13px; 
+   }
+
+   #logo {
+    clear: left;
+    float: left;
+    margin-left: 5px;
+    margin-top: 35px;
+    line-height: 25px;
+    font-size: 99%;
+    }
+
+   #menu  li {
+    clear: left;
+    float: left;
+    font-size: 10px;
+     }
+
 }
