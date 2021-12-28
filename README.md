@@ -6,6 +6,7 @@ LeeMoran_Hair Project 1.
 The LeeMoran_Hair website is a landing page for those who have short to medium lenght hair looking to get a 
 professional hair cut from the comfort of there home, and for those looking go get the one to one experience from a 
 creditable barber. Showing the user my experince in the barbering industy.
+Being able to have the service of a barber on hand throughout the day. organising an agreement to use the service and chossen barber.
 
 Users of the website will be able find all the information they need to to know about LeeMoran_Hair. Home: Gallery,contact, sign up, social links.
 
@@ -51,7 +52,8 @@ About - Gives detail about what the website offers: a brief paragragh on the ser
  Gallery page:
  - Professional service 
  - Bring the shop to you 
- - Can see the experince (4 years in the trade traveled and cut hair)
+ - Can see the experince (4 years in the trade traveling and cutting hair)
+ - Shows the quality of work
 
 <!-- Gallery Image  -->
 
@@ -62,6 +64,7 @@ Contact Page:
 - The form collects your name, an email, a subject and an message box.
 - The contact form is valuable to the user as it gives them the ability to contact with out having to sign up.
 - Invites other barbers to join and find out more, for potrnital for expanding.
+- To expand beyond just one barber to house multiply barber in the creater dublin region, creating a new private service. 
 
 <!-- contact image  -->
 
@@ -71,6 +74,7 @@ Sign up:
 - Has a form to collect detials so they can sign up to LeeMoran_Hair.
 - The form collect the first and last name aswell as an email adress 
 - Invites users to sign up and avail of exclusive deals and news of the expanding services.
+- Creating a new type of community.
 
 <!-- sign up image  -->
 
@@ -79,7 +83,7 @@ Sign up:
 Footer:
 - Contanins the links to social media and location: Facebook, Instagram, Youtube, Google maps.
 - More ways to get in touch.
-- Colors complement the site. contast between grey and white.
+- Colors complement the site. Contast between grey and white.
 
 <img width="1404" alt="Screenshot footer" src="https://user-images.githubusercontent.com/92300148/147471343-13f3516e-b595-4a66-8010-c09642ae318c.png">
 
@@ -87,8 +91,8 @@ Footer:
 Testing:
 - I herby tested the pages work in different browser: Chrome, Firefox, Safari.
 - I confirmed that this project is responsive, looks good and finctions on all standard screen sizes using the devtools device toolbar.
-- I confirmed that the navagation, home, Gallery, Contact and Sign up text are all readable and easy to understand.
-- i confirmed that the form works: requires entries in every field, will only accept an email in the email field and the submit button works.
+- I confirmed that the navagation, Home, Gallery, Contact and Sign up text are all readable and easy to understand.
+- I confirmed that the form works: requires entries in every field, will only accept an email in the email field and the submit button works.
 
 Bugs:
 solved bugs
@@ -107,15 +111,17 @@ Validator testing:
 
 
 Unfixed bugs:
--No unfixed bugs 
+- Error message forms.
 
 Deployment:
-- The site was deployed to GitHub pages. The steps to deploy are as folls:
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigation to the setting tab
 - Form the sourse section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page provided the link to the completed website.
 
-the live link can be found here - https://lee-moran.github.io/leemoran_hair/
+<img width="1243" alt="Screenshot-deployment" src="https://user-images.githubusercontent.com/92300148/147568891-770353d3-7b33-4851-9328-4463eff46a12.png">
+
+The live link can be found here - https://lee-moran.github.io/leemoran_hair/
 
 Technologies Used:
 - HTML5 - provides the content and structure for the website.
