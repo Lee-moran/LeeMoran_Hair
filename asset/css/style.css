@@ -41,7 +41,7 @@ h2 {
     margin-left: 70px;  
 }
 
-    /* Nav element  */
+/* Nav element  */
 
 #menu {
     font-size: 230%;
@@ -139,6 +139,7 @@ h2 {
     /* padding: 10px;  */
     
 }
+
 /* footer styling  */
 
 footer {
@@ -368,6 +369,7 @@ input[type=submit]{
     }
 
 }
+
 /* responsive header, screen size 450px */
 
 @media screen and (max-width: 450px) {
@@ -414,6 +416,7 @@ input[type=submit]{
     
 
 }
+
 /* Responsive screen 350px */
 
 @media screen and (max-width: 350px) {
