@@ -165,6 +165,7 @@ footer {
 }
 
 /* Gallery styling  id = photos */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -310,7 +311,7 @@ input[type=submit]{
     
 }
 
-/* Responsive Gallery  */
+/* Responsive Screen 900px */
 
 @media screen and (max-width: 900px) {
     #photos{
@@ -323,12 +324,6 @@ input[type=submit]{
 @media screen and (max-width: 550px) {
     #photos{
         column-count: 1;
-    }
-    #contact {
-        background: url('../images/pexels-moisés-delgado-medium\ contact.jpg contact.jpg')no-repeat center;
-        height: 400px;
-        width: 100%;
-        position: relative;
     }
 
     #contact {
@@ -347,6 +342,29 @@ input[type=submit]{
         position: absolute;
         left: 25%;
         padding: 15px;
+    }
+
+    #sign-up{
+        background-image: url('../images/pexels-cottonbro-signup\ small.jpg');
+        height: 427px;
+        position:relative; 
+    }
+
+    .form-signup{
+        margin: 22px 10% 0 0;
+        color: white;
+        font-size: 12px;
+        background-color: rgba(119, 119, 119, 0.5);
+        max-width: 500px;
+        left: 15%;
+        padding: 28px;
+        position: absolute;
+    }
+    
+    .form-signup h1 {
+         color: black;
+         margin-bottom: 4px;
+         font-size: 25px;
     }
 
 }
@@ -396,7 +414,7 @@ input[type=submit]{
     
 
 }
-/* Responsive Form */
+/* Responsive screen 350px */
 
 @media screen and (max-width: 350px) {
     .contact-form{
